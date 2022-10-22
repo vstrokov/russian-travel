@@ -1,0 +1,32 @@
+.place__paragraf {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    margin: 0px 0px 26px 0px;
+    padding: 0px;
+    grid-area: text;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraf {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraf {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraf {
+        font-size: 16px;
+        line-height: 163%;
+        margin-bottom: 25px;
+        padding: 0px 16px;
+    }
+}

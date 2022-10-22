@@ -1,0 +1,21 @@
+.lang-link {
+  margin-right: 18px;
+  Width: 29px;
+  Height: 28px;
+  Top: 46px;
+  justify-content: end;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: white;
+  text-decoration: underline;
+}
+
+.langes  li:nth-child(2) {
+  margin-right: 0px;
+  text-decoration: none;
+  }
+

@@ -1,0 +1,21 @@
+.langes {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: end;
+  list-style-type: none;
+
+}
+.langes  li:nth-child(2) {
+  margin-right: 0px;
+  text-decoration: underline;
+  }
+
+  @media screen and (max-width: 320px) {
+
+    /* Стили для устройств, у которых ширина viewport больше или равно 1024 пикселей */
+    .langes {
+      max-height: 42px;
+    }
+}
+ 

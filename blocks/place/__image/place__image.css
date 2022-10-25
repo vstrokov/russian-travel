@@ -9,22 +9,15 @@
     }
 }
 
-
-@media screen and (max-width: 1024px) {
-    .place__image {
-        max-width: 440px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .place__image {
-        max-width: 340px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__image {
-        max-width: 320px;
+        width: 100%;
         margin-bottom: 32px;
     }
 }

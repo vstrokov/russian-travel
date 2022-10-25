@@ -6,13 +6,25 @@
     line-height: 36px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 0px auto 56px;
+    margin: 0px auto 64px;
     max-width: 640px;
 }
-
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        margin: 0px auto 56px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .lead__subtitle {
+        margin: 0px auto 56px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__subtitle {
+        margin: 0px auto 40px;
         font-size: 16px;
         line-height: 20px;
     }

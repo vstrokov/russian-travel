@@ -1,5 +1,4 @@
 .place__website {
-
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -7,10 +6,15 @@
     grid-area: web;
 }
 
+@media screen and (max-width: 768px) {
+    .place__website {
+        padding: 0px 16px;
+
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__website {
         margin-bottom: 32px;
-        padding: 0px 16px;
-
     }
 }

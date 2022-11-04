@@ -10,7 +10,7 @@
     grid-area: text;
 }
 
-.place__paragraf:nth-child(2) {
+.place__paragraf:last-child {
     margin: 0px;
 }
 

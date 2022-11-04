@@ -5,7 +5,7 @@
     color: #FFFFFF;
     max-width: 1184px;
     grid-gap: 16px 16px;
-    padding: 92px 48px;
+    padding: 0 48px 82px;
 }
 
 
@@ -30,10 +30,8 @@
 }
 @media screen and (max-width: 320px) {
     .photo-grid {
-        grid-template-columns: 1fr;
         grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
         max-width: 288px;
         padding: 64px 16px;
-        grid-gap: 12px;
     }
 }

@@ -10,12 +10,8 @@
     color: #fff;
     margin: 8px 0px 0px;
 }
+
 @media screen and (max-width: 768px) {
-    .lead__caption {
-        margin: 8px 0px 0px 24px;
-    }
-}
-@media screen and (max-width: 320px) {
     .lead__caption {
         margin: 8px 0px 0px 24px;
     }

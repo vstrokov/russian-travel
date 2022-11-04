@@ -8,10 +8,9 @@
   letter-spacing: 0em;
   text-align: right;
   color: white;
-
 }
-/*
-.header__lang-link:nth-child(2) {
-  margin-right: 0px;
+
+.header__lang-link:last-child {
+  margin-right: 0;
   text-decoration: none;
-}*/
+}

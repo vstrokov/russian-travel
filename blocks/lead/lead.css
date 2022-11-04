@@ -2,34 +2,25 @@
     margin: 0px;
     display: flex;
     flex-direction: column;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     padding: 0px 148px 92px 148px;
 }
 
 @media screen and (max-width: 1024px) {
-
-    /* Стили для устройств, у которых ширина viewport больше или равно 1024 пикселей */
     .lead {
         padding: 0px 48px 92px 48px;
-
     }
 }
 
 
 @media screen and (max-width: 768px) {
-
-    /* Стили для устройств, у которых ширина viewport больше или равно 1024 пикселей */
     .lead {
         padding: 0px 0px 88px 0px;
-
     }
 }
 
 @media screen and (max-width: 320px) {
-
-    /* Стили для устройств, у которых ширина viewport больше или равно 1024 пикселей */
     .lead {
         padding: 0px 0px 64px 0px;
-
     }
 }

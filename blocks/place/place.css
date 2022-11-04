@@ -30,13 +30,7 @@
 
 @media screen and (max-width: 320px) {
     .place {
-        grid-template-columns: 1fr;
         margin-bottom: 50px;
         grid-gap: 0px;
-        grid-template-areas:
-            "title"
-            "web"
-            "image"
-            "text";
     }
 }

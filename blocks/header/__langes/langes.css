@@ -9,12 +9,11 @@
   margin-right: 0px;
   text-decoration: underline;
   }
-
+*/
   @media screen and (max-width: 320px) {
 
-    /* Стили для устройств, у которых ширина viewport больше или равно 1024 пикселей 
     .langes {
+      margin: 15px 0 0 0;
       max-height: 42px;
     }
 }
-*/

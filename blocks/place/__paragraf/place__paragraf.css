@@ -17,13 +17,16 @@
 @media screen and (max-width: 768px) {
     .place__paragraf {
         font-size: 16px;
-        padding: 0px 16px;
+        font-size: 16px;
+        line-height: 163%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraf {
-        margin-bottom: 25px;
-
+        margin:0 16px 25px;
+    }
+    .place__paragraf:last-child {
+        margin:0 16px;
     }
 }

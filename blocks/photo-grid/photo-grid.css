@@ -16,22 +16,24 @@
         grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
         max-width: 928px;
         grid-gap: 14px;
+        padding: 0 48px 92px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
         max-width: 720px;
-        padding: 88px 24px;
-        grid-gap: 12px;
+        padding: 0 24px 88px;
+        grid-gap: 16px;
     }
 }
 @media screen and (max-width: 320px) {
     .photo-grid {
         grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
         max-width: 288px;
-        padding: 64px 16px;
+        padding: 0 16px;
+        grid-gap: 12px;
     }
 }

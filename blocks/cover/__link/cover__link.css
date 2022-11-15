@@ -40,7 +40,6 @@
 
 @media(max-width: 768px) {
   .cover__link {
-    min-height: 200px;
     min-height: 480px;
   }
 }

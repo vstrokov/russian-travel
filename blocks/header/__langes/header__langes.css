@@ -1,4 +1,4 @@
-.langes {
+.header__langes {
   margin: 20px 0 0 0;
   padding: 0;
   display: flex;
@@ -12,8 +12,7 @@
 */
   @media screen and (max-width: 320px) {
 
-    .langes {
+    .header__langes {
       margin: 15px 0 0 0;
-      max-height: 42px;
     }
 }

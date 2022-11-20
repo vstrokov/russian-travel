@@ -6,7 +6,7 @@ grid-template-columns: repeat(5,max-content);/*
 grid-template-areas:
     "card weather canban date trip";*/
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 620px) {
     .footer__list {
         grid-template-columns: 1fr;
     }

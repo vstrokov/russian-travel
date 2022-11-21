@@ -23,7 +23,9 @@
 
 @media screen and (max-width: 620px) {
     .place__paragraf {
-        margin: 0;
+        margin:0px 16px 25px;
     }
-
+    .place__paragraf:last-child {
+        margin:0px 16px 0px;
+    }
 }
